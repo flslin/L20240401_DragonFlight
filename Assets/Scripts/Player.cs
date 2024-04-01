@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     // ½ºÇÇµå
     public float moveSpeed = 3;
-    private float xRange = 2.6f;
+    //private float xRange = 2.6f;
 
     void Start()
     {

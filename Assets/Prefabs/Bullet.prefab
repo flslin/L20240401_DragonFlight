@@ -172,3 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  myParticle: {fileID: 100006, guid: e076683e0305e35498b8e8834978c0fa, type: 3}

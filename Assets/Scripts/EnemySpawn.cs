@@ -6,6 +6,7 @@ public class EnemySpawn : MonoBehaviour
 {
     public bool enableSpawn = false;
     public GameObject prefab;
+    public List<GameObject> spawnList = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +18,18 @@ public class EnemySpawn : MonoBehaviour
     {
         float randX = Random.Range(-2f, 2f);
 
+        //for(int i = 0; i < spawnList.Count;)
+        //{
+        //        spawnList.Add(prefab);
+        //}
+
         if (enableSpawn)
         {
-            Instantiate(prefab, new Vector3(randX, 5, 0f), Quaternion.identity);
+            for (int i = 0; i < spawnList.Count; i++)
+            {
+                Instantiate(spawnList[i], new Vector3(-2f + i, 5, 0), Quaternion.identity);
+                //Instantiate(prefab, new Vector3(i * .5f, 5, 0), Quaternion.identity);
+            }
         }
     }
 

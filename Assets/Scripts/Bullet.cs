@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.ParticleSystem;
 
 public class Bullet : MonoBehaviour
 {
     public float moveSpeed = 2f;
+    public GameObject myParticle;
 
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -37,6 +39,8 @@ public class Bullet : MonoBehaviour
         {
             // 적 지우기
             Destroy(collision.gameObject);
+            Instantiate(myParticle, gameObject.transform.position, Quaternion.identity);
+            //Destroy(myParticle, 1.0f);
 
             // 나 자신 지우기 (미사일)
             Destroy(gameObject);
