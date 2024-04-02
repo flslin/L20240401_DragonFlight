@@ -10,13 +10,15 @@ public class Launcher : MonoBehaviour
     void Start()
     {
         // InvokeRepeating(함수 이름, 초기 지연 시간 ,지연할 시간);
-        InvokeRepeating("Shoot", .5f, .1f);
+        InvokeRepeating("Shoot", .5f, 1f);
     }
 
     void Shoot()
     {
         // 미사일 프리팹, 런쳐 포지션, 방향값 없음
         Instantiate(bullet, transform.position, Quaternion.identity);
+        // 사운드 플레이
+        SoundManager.instance.PlayerSound();
     }
 
     // Update is called once per frame

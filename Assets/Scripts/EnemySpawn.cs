@@ -16,11 +16,11 @@ public class EnemySpawn : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        float randX = Random.Range(-2f, 2f);
+        //float randX = Random.Range(-2f, 2f);
 
-        //for(int i = 0; i < spawnList.Count;)
+        //for (int i = 0; i < spawnList.Count;)
         //{
-        //        spawnList.Add(prefab);
+        //    spawnList.Add(prefab);
         //}
 
         if (enableSpawn)
@@ -33,12 +33,12 @@ public class EnemySpawn : MonoBehaviour
         }
     }
 
-    void Spawn()
-    {
-        System.Random rand = new System.Random();
-        float distanceX = rand.Next(-4, 4);
-        transform.position = new Vector2(distanceX, transform.position.y);
-        Instantiate(prefab);
-    }
+    //void Spawn()
+    //{
+    //    System.Random rand = new System.Random();
+    //    float distanceX = rand.Next(-4, 4);
+    //    transform.position = new Vector2(distanceX, transform.position.y);
+    //    Instantiate(prefab);
+    //}
 
 }
