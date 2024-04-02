@@ -171,6 +171,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29566bec200e7c4bbd2f4dc23ff10f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  myParticle: {fileID: 100006, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
-  explosion: {fileID: 8194992990867289339, guid: 40125742c02664743b93279a95dc192f, type: 3}
+  moveSpeed: 4
+  myParticle: {fileID: 8194992990867289339, guid: 440c34ade2886e2409fce9452cba1ae3, type: 3}

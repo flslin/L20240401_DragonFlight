@@ -10,7 +10,7 @@ public class Launcher : MonoBehaviour
     void Start()
     {
         // InvokeRepeating(함수 이름, 초기 지연 시간 ,지연할 시간);
-        InvokeRepeating("Shoot", .5f, 1f);
+        InvokeRepeating("Shoot", 0.5f, 0.01f);
     }
 
     void Shoot()

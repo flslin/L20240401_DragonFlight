@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -112,7 +112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -174,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -236,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -298,7 +298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1160393324761076034, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
       propertyPath: m_LocalPosition.y
