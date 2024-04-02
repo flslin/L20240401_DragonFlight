@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 194713035054541978}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,3 +173,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   myParticle: {fileID: 8194992990867289339, guid: 440c34ade2886e2409fce9452cba1ae3, type: 3}
+  myMaterial: {fileID: 7608772630408002608, guid: b2657adb9943a674c99da7df8e4fc31d, type: 3}
